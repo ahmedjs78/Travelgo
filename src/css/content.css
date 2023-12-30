@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@500;900&display=swap');
+@import  "./src/css/fonts.css";
+.man{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 64px 76px 0px 165px;
+    width: auto;
+    height: 713px;
+}
+.left-div{
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 43px; 
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.left-ex-btn{
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: #F85E9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #ffffff;
+    width: 224px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    word-wrap: break-word;
+    z-index: 1;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+
+.left-man-h1{
+    font-size: 69px; 
+    font-family: "circular";
+    margin: 0;
+    color: #222831;
+}
+.left-man-h1 .s{
+    font-size: 69px; 
+    font-family: "circular";
+    color: #F85E9F;
+}
+.left-man-p{
+    color: rgba(25, 24, 37, 0.50);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+margin: 0;
+}
+.left-div-fotter{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.left-get-btn{
+    color: #EEE;
+    font-family: "circular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    width: 141px;
+    height: 49px;
+    border-radius: 100px;
+    border: none;
+    background: #5D50C6;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 5px 11px 0px rgba(0, 0, 0, 0.10), 0px 20px 20px 0px rgba(0, 0, 0, 0.09), 0px 45px 27px 0px rgba(0, 0, 0, 0.05), 0px 81px 32px 0px rgba(0, 0, 0, 0.01), 0px 126px 35px 0px rgba(0, 0, 0, 0.00);
+}
+
+.left-wat-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #222831;
+    border: 1px solid #EEE;
+    border-radius: 100px;
+    background: #FFF; 
+    font-family: "circular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 181px;
+    height: 56px;
+}
+
+.right-div-b{
+    background-color: #F85E9F;
+}
