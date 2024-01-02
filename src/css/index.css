@@ -29,7 +29,13 @@ body{
   filter: blur(250px);
   z-index: 0;
 }
-
+.index1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
 
 
 
