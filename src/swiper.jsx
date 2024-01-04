@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import {FreeMode,Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "./swpre.css";
@@ -11,30 +11,30 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-export default () => {
+const Swipera = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
+      modules={[FreeMode,Autoplay,Navigation, Pagination, Scrollbar, A11y]}
+      FreeMode={true}
+      autoplay={{delay: 1000,disableOnInteraction: false,}}
+      spaceBetween={30}
       slidesPerView={3}
-      navigation
-      pagination={{ clickable: true }}
+      centeredSlides={true}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-    >
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide><div className='box1'><div className='card-img'><img src="" alt="" /></div> </div></SwiperSlide>
-      <SwiperSlide><div className='box2'> </div></SwiperSlide>
-      <SwiperSlide><div className='box3'> </div></SwiperSlide>
-      <SwiperSlide><div className='box4'> </div></SwiperSlide>
-      <SwiperSlide><div className='box4'> </div></SwiperSlide>
-      <SwiperSlide><div className='box4'> </div></SwiperSlide>
-      <SwiperSlide><div className='box4'> </div></SwiperSlide>
-      <SwiperSlide><div className='box4'> </div></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
+    >      
+         
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group.svg" alt="" /></a></li>   </div></SwiperSlide>
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group 3.svg" alt="" /></a></li> </div></SwiperSlide>
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group(1).svg" alt="" /></a></li></div></SwiperSlide>
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group 2.svg" alt="" /></a></li> </div></SwiperSlide>
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group.svg" alt="" /></a></li>   </div></SwiperSlide>
+      <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group.svg" alt="" /></a></li>   </div></SwiperSlide>
       ...
     </Swiper>
   );
 };
+
+export default Swipera;

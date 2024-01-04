@@ -2,9 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from "./header.jsx"
 import Content from "./content.jsx"
-import Slider from "./slidbar.jsx"
-import Swiper from "./swiper.jsx"
-import SimpleSlider from "./slik.jsx"
+import Swipera from "./swiper.jsx"
 import './index.css'
 
 
@@ -22,8 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Son/>
     <Header/>
     <Content/>
-    <Slider/>
-    {/* <Swiper/> */}
-    <SimpleSlider/>
+    <Swipera/>
   </div>
 )

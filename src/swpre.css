@@ -1,26 +1,23 @@
 .swiper {
-    width: 1600px;
-    height: 300px;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top:200px;
+    width: 1200px;
+    height: 200px;
+    /* gap: 0px; */
   }
-  
-  .box1{
-    width: 300px;
-    height: 300px;
-    background-color: red;
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:211px;
+    height: 32px;
   }
-  .box2{
-    width: 300px;
-    height: 300px;
-    background-color: green;
-  }
-  .box3{
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-  }
-  .box4{
-    width: 300px;
-    height: 300px;
-    background-color: orange;
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:211px;
+    height: 32px;
   }
