@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+};
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -24,12 +32,14 @@ body{
   width: 500px;
   height: 500px;
   border-radius: 9900px;
-  opacity: 0.5;
+  opacity:0.50;
   background: #FF5722;
-  filter: blur(250px);
+  filter: blur(500px);
   z-index: 0;
+  box-shadow: 500px 500px 500px;
 }
 .index1{
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,3 +49,7 @@ body{
 
 
 
+.d{
+  z-index: 3;
+  color: #FF5722;
+}

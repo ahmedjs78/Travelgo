@@ -32,6 +32,7 @@
     color: black;
     margin-left: 16px;
     line-height: 40px;
+    z-index: 1;
 }
 
 .header-links{
@@ -43,10 +44,12 @@
     font-weight: bold;
     color: #19182580 ;
 }
+
 .header-links li:hover{
     color: black;
     cursor: pointer;
 }
+
 .login-btn{
     font-family: 'circular';
     width: 115px;
