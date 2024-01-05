@@ -1,3 +1,18 @@
+
 .box12{
-    background-color: cadetblue;
-}
+    background-color: rgb(67, 165, 168);
+  }
+  .butons-con{
+    display: flex;
+  }
+  .next{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+  }
+  .prev{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+  }
+  
