@@ -21,3 +21,8 @@
     width:211px;
     height: 32px;
   }
+.decoration-slider{
+  position: relative;
+  right: 800px;
+  top:260px;
+}

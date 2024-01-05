@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Header from "./header.jsx"
 import Content from "./content.jsx"
 import Swipera from "./swiper.jsx"
+import Sfslider from './sectionf.jsx'
 import './index.css'
 
 
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header/>
     <Content/>
     <Swipera/>
+    <Sfslider/>
   </div>
 )
