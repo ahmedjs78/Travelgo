@@ -1,4 +1,4 @@
-.swiper {
+.swiper-auto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,12 +7,15 @@
     height: 200px;
     /* gap: 0px; */
   }
+  #swiper-wrapper-275da6f9a10651212{
+    width:211px;
+    height: 32px;
+  }
   .swiper-slide{
     display: flex;
     justify-content: center;
     align-items: center;
     width:211px;
-    height: 32px;
   }
   .box{
     display: flex;

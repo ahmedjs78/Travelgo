@@ -15,6 +15,7 @@ const Swipera = () => {
   return (
     <>
     <div className='decoration-slider'><img src="src\assets\slider\OBJECTS.svg" alt="" /></div>
+    <div className='swiper-auto'>
       <Swiper
             // install Swiper modules
             modules={[FreeMode,Autoplay,Navigation, Pagination, Scrollbar, A11y]}
@@ -23,7 +24,6 @@ const Swipera = () => {
             spaceBetween={30}
             slidesPerView={3}
             centeredSlides={true}
-            scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
             >
@@ -33,6 +33,7 @@ const Swipera = () => {
             <SwiperSlide><div className='box'><li><a href=""><img src="src\assets\slider\Group 2.svg" alt="" /></a></li> </div></SwiperSlide>
             ...
       </Swiper>
+    </div>
     </>
   );
 };
