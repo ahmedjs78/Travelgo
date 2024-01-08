@@ -16,7 +16,6 @@
 
 .butons-con{
     display: flex;
-    justify-content: end;
   }
   .next{
     background-color: #5D50C6;

@@ -1,4 +1,3 @@
-
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
 import "./css/sectionf.css"
@@ -24,10 +23,10 @@ const Sfslider = () => {
         </div>
             <div className=''>
                 {/* add color to the selcted card */}
-                <Swiper 
+                <Swiper
                         css-mode="true"
                         FreeMode={true}
-                        navigation={{ prevEl: '.prev', nextEl: '.next',}} 
+                        navigation={{ prevEl: '.prev', nextEl: '.next',}}
 
                         slidesPerView={2}
                         centeredSlides={true}
