@@ -24,7 +24,7 @@ body{
   padding: 0;
 }
 .son{
-  position: fixed;
+  position: absolute;
   left:-356px; top: -223px;
   width: 500px;
   height: 500px;
