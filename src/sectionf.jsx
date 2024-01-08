@@ -18,11 +18,12 @@ const Sfslider = () => {
     return(
         <>
         <div className='secf-cont'>
-
+        {/* add the content of the left div and stle it */}
         <div className=''>
 
         </div>
             <div className=''>
+                {/* add color to the selcted card */}
                 <Swiper 
                         css-mode="true"
                         FreeMode={true}
