@@ -7,3 +7,10 @@
     font-family: srcStd;
     src:url('./src/fonts/FontsFree-Net-CircularStd-Black.ttf') format("truettype");
 }
+
+@font-face {
+  font-family: Circular-Std-Bold;
+  src:url('./src\fonts\FontsFree-Net-Circular-Std-Bold.ttf') format("truettype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');

@@ -17,50 +17,74 @@ const Sfslider = () => {
     return(
         <>
         <div className='secf-cont'>
-        {/* add the content of the left div and stle it */}
-        <div className=''>
+            <div className='sf-left-side'>
 
-        </div>
-            <div className=''>
+                <h3>SERVICES</h3>
+                <p>Our top value <br /> Categories fpr you</p>
+                <div className=''>
+                </div>
+            </div>
+
+            <div className='swiper-cont-c'>
                 {/* add color to the selcted card */}
-                <Swiper
+                <Swiper className='swiper-cont-b'
                         css-mode="true"
                         FreeMode={true}
                         navigation={{ prevEl: '.prev', nextEl: '.next',}}
-
                         slidesPerView={2}
                         centeredSlides={true}
                         scrollbar={{ draggable: true }}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}>
-                    <SwiperSlide className="testf">
+                    <SwiperSlide className="card-content">
                         <div className='card'>
                             <div className='card-padding'>
                                 <div>
                                     <img src="src\assets\cards\booking 1.png" alt="" />
                                 </div>
-                                <div className='card-p2'>
+                                <div className='info-card'>
                                     <h1 className='card-h1'>Easy Booking</h1>
                                     <p className='card-p'>Square, was moving across the sand in their direction.</p>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="card-content">
                         <div className='card'>
-                            <div><img src="src\assets\cards\booking 1.png" alt="" /></div>
-                            <div>
-                                <h1>Easy Booking</h1>
-                                <p>Square, was moving across the sand in their direction.</p>
+                            <div className='card-padding'>
+                                <div>
+                                    <img src="src\assets\cards\booking 1.png" alt="" />
+                                </div>
+                                <div className='info-card'>
+                                    <h1 className='card-h1'>Easy Booking</h1>
+                                    <p className='card-p'>Square, was moving across the sand in their direction.</p>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="card-content">
                         <div className='card'>
-                            <div><img src="src\assets\cards\booking 1.png" alt="" /></div>
-                            <div>
-                                <h1>Easy Booking</h1>
-                                <p>Square, was moving across the sand in their direction.</p>
+                            <div className='card-padding'>
+                                <div>
+                                    <img src="src\assets\cards\booking 1.png" alt="" />
+                                </div>
+                                <div className='info-card'>
+                                    <h1 className='card-h1'>Easy Booking</h1>
+                                    <p className='card-p'>Square, was moving across the sand in their direction.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="card-content">
+                        <div className='card'>
+                            <div className='card-padding'>
+                                <div>
+                                    <img src="src\assets\cards\booking 1.png" alt="" />
+                                </div>
+                                <div className='info-card'>
+                                    <h1 className='card-h1'>Easy Booking</h1>
+                                    <p className='card-p'>Square, was moving across the sand in their direction.</p>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
