@@ -40,11 +40,11 @@ const Sfslider = () => {
                         <div className='card'>
                             <div className='card-padding'>
                                 <div>
-                                    <img src="src\assets\cards\booking 1.png" alt="" />
+                                    <img src="src\assets\slider\destination 1.png" alt="" />
                                 </div>
                                 <div className='info-card'>
-                                    <h1 className='card-h1'>Easy Booking</h1>
-                                    <p className='card-p'>Square, was moving across the sand in their direction.</p>
+                                    <h1 className='card-h1'>Best Tour Guide</h1>
+                                    <p className='card-p'>What looked like a small patch of purple grass, above five feet.</p>
                                 </div>
                             </div>
                         </div>
@@ -100,4 +100,4 @@ const Sfslider = () => {
     )
 };
 
-export default Sfslider
+export default Sfslider;

@@ -4,9 +4,10 @@
   display: grid;
   grid-template-columns: [col1]37% [col2]63% ;
   grid-template-rows: [row1] 85% [row2]15%;
-  width: 1200px;
+  width: auto;
   height: 600px;
   margin-top: 10px;
+  padding:64px 76px 0px 165px;
 }
 .butons-con{
   display: flex;

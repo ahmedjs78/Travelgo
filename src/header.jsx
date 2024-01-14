@@ -12,7 +12,7 @@ function Header(){
                 <img src="src\assets\Vector.svg" alt="logo" />
                 <span>
                     <a className="a" href="">Travlog</a>
-                    </span> 
+                    </span>
             </div>
             <ul className="header-links">
                 <li>Home</li>

@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
     margin-top:200px;
-    width: 1200px;
+    width: auto;
     height: 200px;
-    /* gap: 0px; */
+    padding: 64px 76px 0px 165px;
   }
   #swiper-wrapper-275da6f9a10651212{
     width:211px;
@@ -26,6 +26,6 @@
   }
 .decoration-slider{
   position: relative;
-  right: 800px;
+  right: -20px;
   top:260px;
 }
