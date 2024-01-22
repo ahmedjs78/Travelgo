@@ -10,9 +10,14 @@
   padding:64px 76px 0px 165px;
 }
 .butons-con{
+  gap: 16px;
   display: flex;
   justify-content: flex-end;
   margin: 0 30px;
+  position: relative;
+  top:150px;
+  right: 200px;
+
 }
 .sf-left-side{
   width: 100%;

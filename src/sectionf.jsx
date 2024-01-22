@@ -33,7 +33,6 @@ const Sfslider = () => {
                         navigation={{ prevEl: '.prev', nextEl: '.next',}}
                         slidesPerView={2}
                         centeredSlides={true}
-                        scrollbar={{ draggable: true }}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}>
                     <SwiperSlide className="card-content">

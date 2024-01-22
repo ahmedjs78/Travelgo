@@ -11,7 +11,7 @@
 .left-div{
     width: 427px;
     display: flex;
-    flex-direction: column;
+flex-direction: column;
     align-items: flex-start;
     gap: 43px; 
     background-color: #ffffff;

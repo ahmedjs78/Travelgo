@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @font-face {
     font-family: circular;
     src: url('./src/fonts/circular-std-medium-500.ttf') format("truetype");
@@ -13,4 +15,3 @@
   src:url('./src\fonts\FontsFree-Net-Circular-Std-Bold.ttf') format("truettype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
