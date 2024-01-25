@@ -4,14 +4,3 @@
     font-family: circular;
     src: url('./src/fonts/circular-std-medium-500.ttf') format("truetype");
   };
-
-@font-face {
-    font-family: srcStd;
-    src:url('./src/fonts/FontsFree-Net-CircularStd-Black.ttf') format("truettype");
-}
-
-@font-face {
-  font-family: Circular-Std-Bold;
-  src:url('./src\fonts\FontsFree-Net-Circular-Std-Bold.ttf') format("truettype");
-}
-
