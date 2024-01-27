@@ -91,7 +91,7 @@ const Sfslider = () => {
                 
                     <div className='butons-con'>
                         <div className="prev" onClick={() => swiper.slidePrev()}><img src="src\assets\cards\arrow-left-solid.svg"></img></div>
-                        <div className="next" onClick={() => swiper.slideNext()}><img src='src\assets\cards\arrow-right-solid.svg'></img></div>
+                        <div className="next" onClick={() => swiper.slideNext()}><img src='src\assets\cards\arrow-left 2.svg'></img></div>
                     </div>
             </div>
     </div>
