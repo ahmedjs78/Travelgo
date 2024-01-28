@@ -5,6 +5,7 @@ import Content from "./content.jsx"
 import Swipera from "./swiper.jsx"
 import Sfslider from './sectionf.jsx'
 import Sectionb from "./sectionb.jsx"
+import Sectionc from "./sectionc.jsx"
 import './index.css'
 
 
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Swipera/>
       <Sfslider/>
       <Sectionb/>
+      <Sectionc/>
     </div>
   </div>
 )

@@ -47,7 +47,6 @@ body{
   background: #FF5722;
   filter: blur(700px);
   z-index: 0;
-  box-shadow: 500px 500px 500px;
 }
 
 .d{
