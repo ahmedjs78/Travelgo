@@ -9,14 +9,13 @@ const Sectionc = () => {
                 <div className="relative top-[20] left-[491px]">
                     <img src="src\assets\sectionc\Ellipse 14.svg" alt="" />
                 </div>
-                <div className=" bg-slate-600 text-right">
-                    <button className="">Discounted Price</button>
-                </div>
+                <div className="relative left-[400px] z-[2] sadow2 bg-[#fff] w-[302px] h-[72px] rounded-full flex gap-3 items-center justify-center"> <img className="w-[40px] h-[40px]" src="src\assets\sectionc\discount 1.svg"/><p className="text-[23px] text-[#191825] font-['circular']"> Discounted Price</p></div>
+                <div className="relative top-[-200px] z-[2]"> <img src="src\assets\sectionc\My project 1.png" alt="" /></div>
+                <div className="relative top-[-770px] z-[1] w-[750px]"><img src="src\assets\sectionc\Rectangle 7.png" alt="" /></div>
             </div>
             <div className="w-[445px] h-[667px] bg-[#d21]"></div>
         </div>
         </>
     )
 }
- 
 export default Sectionc;
