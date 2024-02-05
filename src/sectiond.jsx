@@ -1,7 +1,7 @@
 const Sectiond = () => {
     return(
         <>
-        <div className="secd-maincont mt-40 flex items-center  justify-center gap-15">
+        <div className="secd-maincont mt-40 flex items-center  justify-center gap-9">
             <div className="  w-[540px] h-[772px]">
                 <div className="max-h-[216px]  size-full">
                     <h3 className="text-[#F85E9F] font-['circular'] text-[23px] tracking-[5px]">KEY FEATURES</h3>
@@ -38,10 +38,11 @@ const Sectiond = () => {
                     </div>
                 </div>
             </div>
-            <div className=" relative  bg-slate-300 w-[500px] h-[700px] ">
-                <div ><img src="src\assets\sectiond\Rectangle 9.png" alt="" /></div>
-                <div className="absolute left-[130px] top-[270px]"><img src="src\assets\sectiond\Rectangle 10.png" alt="" /></div>
-                <div className="absolute top-[10px] right-[220px] z-[1]"><img src="src\assets\sectiond\BACKGROUND.png" alt="" /></div>
+            <div className=" relative w-[500px] h-[700px] ">
+                <div className="absolute z-[2]" ><img src="src\assets\sectiond\Rectangle 9.png" alt="" /></div>
+                <div className="absolute left-[130px] top-[270px] z-[2]"><img className="" src="src\assets\sectiond\Rectangle 10.png" alt="" /></div>
+                <div className="absolute top-[-60px] right-[-200px] z-[1] max-w-none "><img className="max-w-none z-[1]" src="src\assets\sectiond\BACKGROUND.png" alt="" /></div>
+                <div className="absolute max-w-[307px] max-h-[72px] z-[2] right-[-30px] top-[90px] size-full bg-white text-[#000] rounded-[40px] items-center justify-center flex gap-3"> <img src="src\assets\sectiond\map.11 1.svg" alt="" /> <button className="text-black font-['circular'] text-[23px]">Paradise on Earth</button></div>
             </div>
         </div>
         </>
