@@ -7,6 +7,7 @@ import Sfslider from './sectionf.jsx'
 import Sectionb from "./sectionb.jsx"
 import Sectionc from "./sectionc.jsx"
 import Sectiond from "./sectiond.jsx"
+import Sectione from "./sectione.jsx"
 import './index.css'
 
 
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Sectionb/>
       <Sectionc/>
       <Sectiond/>
+      <Sectione/>
     </div>
   </div>
 )

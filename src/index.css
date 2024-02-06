@@ -59,4 +59,8 @@ body{
   width: 100%;
   max-width: 1440px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }

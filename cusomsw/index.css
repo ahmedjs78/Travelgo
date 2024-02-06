@@ -1,0 +1,35 @@
+.bodym{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-cont{
+    overflow: hidden;
+}
+.swiper{
+    
+    position: relative;
+    display: flex;
+    gap:30px;
+    right:0px;
+    left:0px;
+}
+
+.elemnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+.nextTransition{
+    transition-duration: 1s;
+    transform: translate3d(700px, 0px, 0px)
+}
+.prevTransition{
+    transition-duration: 1s;
+    transform: translate3d(-300px, 0px, 0px)
+}

@@ -18,7 +18,6 @@ const Sfslider = () => {
         <>
         <div className='secf-cont'>
             <div className='sf-left-side'>
-
                 <h3>SERVICES</h3>
                 <p>Our top value <br /> Categories fpr you</p>
                 <div className=''>

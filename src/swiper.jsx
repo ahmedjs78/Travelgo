@@ -14,8 +14,9 @@ import 'swiper/css/scrollbar';
 const Swipera = () => {
   return (
     <>
-    <div className='decoration-slider'><img src="src\assets\slider\OBJECTS.svg" alt="" /></div>
-    <div className='swiper-auto'>
+    
+    <div className='swiper-auto relative'>
+    <div className=' absolute top-[-20px] left-[20px] decoration-slider'><img src="src\assets\slider\OBJECTS.svg" alt="" /></div>
       <Swiper
             // install Swiper modules
             modules={[FreeMode,Autoplay,Navigation, Pagination, Scrollbar, A11y]}
