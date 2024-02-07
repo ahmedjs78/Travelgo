@@ -64,3 +64,9 @@ body{
   align-items: center;
   
 }
+
+
+
+.swiper-slide{
+  justify-content: start !important;
+}
