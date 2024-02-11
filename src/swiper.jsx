@@ -15,7 +15,7 @@ const Swipera = () => {
   return (
     <>
     
-    <div className='swiper-auto relative'>
+    <div className='swiper-auto relative max-w-[1440px] w-[1440px]'>
     <div className=' absolute top-[-20px] left-[20px] decoration-slider'><img src="src\assets\slider\OBJECTS.svg" alt="" /></div>
       <Swiper
             // install Swiper modules

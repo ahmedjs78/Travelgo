@@ -8,6 +8,8 @@ import Sectionb from "./sectionb.jsx"
 import Sectionc from "./sectionc.jsx"
 import Sectiond from "./sectiond.jsx"
 import Sectione from "./sectione.jsx"
+import Sectionj from "./sectionj.jsx"
+import Sectionl from "./sectionl.jsx"
 import './index.css'
 
 
@@ -32,6 +34,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Sectionc/>
       <Sectiond/>
       <Sectione/>
+      <Sectionj/>
+      <Sectionl/>
     </div>
   </div>
 )

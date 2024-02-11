@@ -70,3 +70,7 @@ body{
 .swiper-slide{
   justify-content: start !important;
 }
+
+td{
+  width:35%;
+}
