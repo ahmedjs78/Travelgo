@@ -44,7 +44,7 @@ const Sectionl = () => {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="text-start">Blog</td>
+                        <td className="text-start">Blog</td> 
                     </tr>
                 </table>
             </div>
